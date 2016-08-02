@@ -39,7 +39,7 @@ public class Application {
 
     @RequestMapping("/")
     public String helloWorld() {
-        return client.getForObject("http://simple/", String.class);
+        return client.getForObject("http://eureka.client/welink", String.class);
     }
 
 

@@ -15,8 +15,9 @@
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-config</artifactId>
-                <version>1.0.4.RELEASE</version>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <!--<artifactId>spring-cloud-config</artifactId>-->
+                <version>Brixton.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

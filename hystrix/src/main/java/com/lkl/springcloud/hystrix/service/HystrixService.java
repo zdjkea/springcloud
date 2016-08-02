@@ -12,6 +12,7 @@ public class HystrixService {
 
     @Autowired
     private CallDependencyService dependencyService;
+
     public String callDependencyService() {
         return dependencyService.mockGetUserInfo();
     }
